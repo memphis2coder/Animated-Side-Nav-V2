@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.sidebar {
+  width: 25%;
+  background: #777;
+}
+
+#content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background: #000;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
